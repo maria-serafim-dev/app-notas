@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App de Notas</string>
+    <string name="titulo">Meta para terça</string>
+    <string name="texto">Reponder todos os e-mails</string>
+</resources>
