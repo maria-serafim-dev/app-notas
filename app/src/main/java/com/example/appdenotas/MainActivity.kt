@@ -2,6 +2,7 @@ package com.example.appdenotas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.ItemTouchHelper
 import com.example.appdenotas.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,8 @@ class MainActivity : AppCompatActivity() {
     private fun iniciarRecycleView() {
         val adapter = NotaAdapter(applicationContext, listaNota)
         binding.recycleViewNotas.adapter = adapter
+        val itemTouch = ItemTouchHelper(NotaItemTouchHelperCallback())
+        itemTouch.attachToRecyclerView(binding.recycleViewNotas)
 
     }
 }
