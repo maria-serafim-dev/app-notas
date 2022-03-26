@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">App de Notas</string>
-    <string name="titulo">Meta para terça</string>
-    <string name="texto">Reponder todos os e-mails</string>
+    <string name="titulo">Lista de Notas</string>
+    <string name="tools_titulo">Título</string>
+    <string name="tools_subtitulo">Texto de subtitulo</string>
+
 </resources>
